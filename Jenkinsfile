@@ -16,8 +16,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh pwd
-                sh ls
+                sh 'pwd'
+                sh 'ls'
                 echo 'Installing npm dependencies...'
                 sh 'npm install'
             }
