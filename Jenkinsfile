@@ -19,7 +19,7 @@ pipeline {
                 sh 'pwd'
                 sh 'ls'
                 echo 'Installing npm dependencies...'
-                sh 'npm install'
+                sh 'npm start'
             }
         }
 
